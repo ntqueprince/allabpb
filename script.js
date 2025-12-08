@@ -94,211 +94,277 @@
         ],
         
     quiz: [
-        {
-            question: "What is Policybazaar primarily known for?",
-            options: [
-                "An online travel booking platform",
-                "India's largest online insurance marketplace",
-                "A retail e-commerce platform",
-                "A mutual fund trading site"
-            ],
-            correct: 1,
-            explanation: "Policybazaar is India’s largest and most trusted online insurance marketplace."
-        },
-        {
-            question: "What was Policybazaar’s original legal name?",
-            options: [
-                "Etechaces Marketing and Consulting Pvt. Ltd.",
-                "PB Fintech Pvt. Ltd.",
-                "Policybazaar Ltd.",
-                "Etech Global Insurance Pvt. Ltd."
-            ],
-            correct: 0,
-            explanation: "Policybazaar was initially incorporated as Etechaces Marketing and Consulting Pvt. Ltd. in 2008."
-        },
-        {
-            question: "When was Policybazaar incorporated?",
-            options: ["2005", "2006", "2008", "2010"],
-            correct: 2,
-            explanation: "Policybazaar was incorporated on June 4, 2008."
-        },
-        {
-            question: "Which company is the parent organization of Policybazaar?",
-            options: ["PB Fintech Ltd.", "Reliance Capital", "Bajaj Allianz", "Paytm Money"],
-            correct: 0,
-            explanation: "PB Fintech Limited is the parent company of Policybazaar and Paisabazaar."
-        },
-        {
-            question: "Which other brand operates under PB Fintech along with Policybazaar?",
-            options: ["Google Pay", "Paisabazaar", "Paytm", "YONO SBI"],
-            correct: 1,
-            explanation: "Paisabazaar offers loan and credit services and is part of the PB Fintech ecosystem."
-        },
-        {
-            question: "What is the main purpose of Policybazaar?",
-            options: [
-                "To make insurance complex and agent-driven",
-                "To simplify and make insurance transparent",
-                "To sell only car insurance policies",
-                "To invest in mutual funds"
-            ],
-            correct: 1,
-            explanation: "Policybazaar aims to simplify insurance and bring transparency to the process."
-        },
-        {
-            question: "Which of the following is NOT a core value of Policybazaar?",
-            options: ["Transparency", "Simplification", "Protection", "Profit Maximization"],
-            correct: 3,
-            explanation: "The core values are Transparency, Simplification, and Protection."
-        },
-        {
-            question: "Which year did Policybazaar launch Paisabazaar?",
-            options: ["2012", "2013", "2014", "2015"],
-            correct: 2,
-            explanation: "Paisabazaar was launched in 2014 to expand PB Fintech’s portfolio into loans and credit."
-        },
-        {
-            question: "In which year did Policybazaar become a unicorn?",
-            options: ["2016", "2017", "2018", "2019"],
-            correct: 2,
-            explanation: "Policybazaar became a unicorn in 2018 after crossing $1 billion in valuation."
-        },
-        {
-            question: "When did Policybazaar launch its IPO?",
-            options: ["2019", "2020", "2021", "2022"],
-            correct: 2,
-            explanation: "Policybazaar went public in 2021."
-        },
-        {
-            question: "Which industry problem was Policybazaar originally trying to solve?",
-            options: [
-                "Lack of transparency and manual processes in insurance",
-                "High cost of mutual fund trading",
-                "Airline ticket booking delays",
-                "E-commerce logistics issues"
-            ],
-            correct: 0,
-            explanation: "Policybazaar sought to bring transparency and digitization to insurance buying."
-        },
-        {
-            question: "What is one key benefit of Policybazaar’s digital platform?",
-            options: [
-                "Slower processing",
-                "Agent dependency",
-                "Paperless and fast policy comparisons",
-                "Manual claim submissions"
-            ],
-            correct: 2,
-            explanation: "Policybazaar enables digital, fast, and paperless policy comparisons."
-        },
-        {
-            question: "Which technology helps Policybazaar provide personalized underwriting?",
-            options: ["Blockchain", "Data Analytics", "Robotics", "Cloud Gaming"],
-            correct: 1,
-            explanation: "Data analytics enables Policybazaar to personalize underwriting and assess risk accurately."
-        },
-        {
-            question: "What is the online insurance market share of Policybazaar?",
-            options: ["73.4%", "83.4%", "93.4%", "97.4%"],
-            correct: 2,
-            explanation: "Policybazaar commands a 93.4% share of India’s online insurance market."
-        },
-        {
-            question: "Which challenge still exists for online insurance in India?",
-            options: [
-                "Lack of insurance products",
-                "Low customer awareness and complex language",
-                "Too many agents online",
-                "Excessive policy transparency"
-            ],
-            correct: 1,
-            explanation: "Online insurance still faces challenges of customer awareness and complex terms."
-        },
-        {
-            question: "What percentage was India's total insurance penetration during COVID-19 (2020–22)?",
-            options: ["2.6%", "3.3%", "4.19%", "5.0%"],
-            correct: 2,
-            explanation: "Total insurance penetration rose to 4.19% during COVID-19."
-        },
-        {
-            question: "What was the non-life insurance penetration in India by 2023-24?",
-            options: ["0.6%", "0.8%", "1.0%", "1.3%"],
-            correct: 2,
-            explanation: "Non-life insurance penetration in India reached about 1.0% by 2023–24."
-        },
-        {
-            question: "Which of the following is an initiative of Policybazaar to empower users?",
-            options: [
-                "Hiding policy details",
-                "Providing side-by-side policy comparisons",
-                "Mandatory agent consultations",
-                "Offline-only renewals"
-            ],
-            correct: 1,
-            explanation: "Policybazaar empowers users through transparent, side-by-side policy comparisons."
-        },
-        {
-            question: "Which FinTech concept is used to automate claim processing?",
-            options: ["Robotics and AI", "Quantum Computing", "Blockchain", "5G Networks"],
-            correct: 0,
-            explanation: "Robotics and AI make routine claim verification and document checks faster and more accurate."
-        },
-        {
-            question: "Which of these brands in the PB Fintech ecosystem focuses on healthcare?",
-            options: ["DocPrime", "Paisabazaar", "PB Partners", "FinTechCare"],
-            correct: 0,
-            explanation: "DocPrime provides healthcare-related services under the PB Fintech umbrella."
-        },
-        {
-            question: "How does Policybazaar prevent mis-selling?",
-            options: [
-                "By offering agent-exclusive plans",
-                "By eliminating transparency",
-                "By providing unbiased comparisons and direct online purchase",
-                "By selling only through call centers"
-            ],
-            correct: 2,
-            explanation: "Policybazaar reduces mis-selling by offering transparent, unbiased comparisons online."
-        },
-        {
-            question: "What is PB Partners’ main role in the ecosystem?",
-            options: [
-                "Retail sales",
-                "Agent and partner network support",
-                "Mutual fund management",
-                "Credit score analysis"
-            ],
-            correct: 1,
-            explanation: "PB Partners connects and supports agents and partners in the PB Fintech network."
-        },
-        {
-            question: "Which year did Policybazaar achieve $1 billion valuation?",
-            options: ["2016", "2017", "2018", "2019"],
-            correct: 2,
-            explanation: "It became a unicorn in 2018."
-        },
-        {
-            question: "What kind of insurance comparison does Policybazaar specialize in?",
-            options: [
-                "Travel and tour booking",
-                "Mutual fund performance",
-                "Side-by-side comparison of insurance products",
-                "Stock trading analytics"
-            ],
-            correct: 2,
-            explanation: "Policybazaar enables users to compare insurance plans side-by-side for better decisions."
-        },
-        {
-            question: "What is Policybazaar’s mission statement focus?",
-            options: [
-                "Maximize shareholder profit",
-                "Make insurance accessible and understandable for every Indian",
-                "Promote only health insurance",
-                "Offer crypto investment services"
-            ],
-            correct: 1,
-            explanation: "Policybazaar’s mission is to make insurance accessible and understandable for every Indian."
-        }
+    
+
+  {
+    question: "What overall rating is shown for PolicyBazaar in the stats above?",
+    options: ["4.5", "4.8", "5.0", "4.2"],
+    correct: 1,
+    explanation: "The stats show PolicyBazaar with a 4.8/5 rating."
+  },
+  {
+    question: "How many reviews and ratings are listed in the stats above?",
+    options: ["50,000", "109,677", "200,000", "75,321"],
+    correct: 1,
+    explanation: "The stats list 109,677 reviews and ratings."
+  },
+  {
+    question: "What rating does Customer Service have in the stats above?",
+    options: ["4/5", "3.5/5", "5/5", "4.5/5"],
+    correct: 2,
+    explanation: "Customer Service is shown as 5 out of 5 stars."
+  },
+  {
+    question: "What rating is shown for Policy Benefit in the stats above?",
+    options: ["4.5/5", "3/5", "5/5", "4/5"],
+    correct: 0,
+    explanation: "Policy Benefit is displayed as 4.5 out of 5."
+  },
+  {
+    question: "What rating is shown for Policy Coverage in the stats above?",
+    options: ["5/5", "4/5", "3/5", "4.5/5"],
+    correct: 1,
+    explanation: "Policy Coverage is displayed as 4 stars out of 5."
+  },
+  {
+    question: "What is the Insurance Premium amount listed in the stats above?",
+    options: ["₹18,000 Crores", "₹28,100 Crores", "₹30,600 Crores", "₹5,08,000 Crores"],
+    correct: 1,
+    explanation: "The stats show ₹28,100 Crores in insurance premium."
+  },
+  {
+    question: "How many policies sold are listed in the stats above?",
+    options: ["1.2 Crores", "3.5 Crores", "5.26 Crores", "10 Crores"],
+    correct: 2,
+    explanation: "The stats state 5.26 Crores policies sold."
+  },
+  {
+    question: "What is the Loan Disbursal amount shown in the stats above?",
+    options: ["₹28,100 Crores", "₹5.08 Crores", "₹30,600 Crores", "₹2,25,000 Crores"],
+    correct: 2,
+    explanation: "Loan disbursals listed are ₹30,600 Crores."
+  },
+  {
+    question: "How many registered agents are listed in the stats above?",
+    options: ["2.25 Lakh+", "1 Lakh+", "5 Lakh+", "10,000+"],
+    correct: 0,
+    explanation: "The stats list 2.25 Lakh+ registered agents."
+  },
+  {
+    question: "How many pin codes are covered according to the stats above?",
+    options: ["12,000+", "18,000+", "25,000+", "5,000+"],
+    correct: 1,
+    explanation: "The stats mention 18,000+ pin codes covered."
+  },
+
+  // --- General Policybazaar questions (30) ---
+  {
+    question: "What is Policybazaar primarily known for?",
+    options: [
+      "An online travel booking platform",
+      "India's largest online insurance marketplace",
+      "A retail e-commerce platform",
+      "A mutual fund trading site"
+    ],
+    correct: 1,
+    explanation: "Policybazaar is India’s largest online insurance marketplace."
+  },
+  {
+    question: "What was Policybazaar’s original legal name?",
+    options: [
+      "Etechaces Marketing and Consulting Pvt. Ltd.",
+      "PB Fintech Pvt. Ltd.",
+      "Policybazaar Ltd.",
+      "Etech Global Insurance Pvt. Ltd."
+    ],
+    correct: 0,
+    explanation: "Policybazaar was earlier registered as Etechaces Marketing and Consulting Pvt. Ltd."
+  },
+  {
+    question: "When was Policybazaar incorporated?",
+    options: ["2005", "2006", "2008", "2010"],
+    correct: 2,
+    explanation: "It was incorporated on June 4, 2008."
+  },
+  {
+    question: "Which company is the parent organization of Policybazaar?",
+    options: ["PB Fintech Ltd.", "Reliance Capital", "Bajaj Allianz", "Paytm Money"],
+    correct: 0,
+    explanation: "PB Fintech Limited is the parent company."
+  },
+  {
+    question: "Which other brand is operated by PB Fintech?",
+    options: ["Google Pay", "Paisabazaar", "Paytm", "YONO SBI"],
+    correct: 1,
+    explanation: "Paisabazaar is PB Fintech’s loans and credit platform."
+  },
+  {
+    question: "What is the main purpose of Policybazaar?",
+    options: [
+      "To make insurance complex",
+      "To simplify and make insurance transparent",
+      "To focus only on car insurance",
+      "To sell investment services"
+    ],
+    correct: 1,
+    explanation: "Policybazaar simplifies insurance and makes it transparent."
+  },
+  {
+    question: "Which of the following is NOT a core value of Policybazaar?",
+    options: ["Transparency", "Simplification", "Protection", "Profit Maximization"],
+    correct: 3,
+    explanation: "Profit maximization is not one of the core values."
+  },
+  {
+    question: "In which year was Paisabazaar launched?",
+    options: ["2012", "2013", "2014", "2015"],
+    correct: 2,
+    explanation: "Paisabazaar was launched in 2014."
+  },
+  {
+    question: "In which year did Policybazaar become a unicorn?",
+    options: ["2016", "2017", "2018", "2019"],
+    correct: 2,
+    explanation: "Policybazaar became a unicorn in 2018."
+  },
+  {
+    question: "When did Policybazaar launch its IPO?",
+    options: ["2019", "2020", "2021", "2022"],
+    correct: 2,
+    explanation: "The IPO launched in 2021."
+  },
+  {
+    question: "Which industry problem did Policybazaar aim to solve?",
+    options: [
+      "Lack of transparency in insurance",
+      "Airline ticket delays",
+      "E-commerce delivery issues",
+      "Banking interest problems"
+    ],
+    correct: 0,
+    explanation: "Policybazaar solved transparency and complexity issues in insurance."
+  },
+  {
+    question: "Which of these is a benefit of Policybazaar’s digital platform?",
+    options: [
+      "Slower processing",
+      "More dependency on agents",
+      "Paperless and fast comparison",
+      "Offline-only claim submission"
+    ],
+    correct: 2,
+    explanation: "Policybazaar allows fast, paperless comparisons."
+  },
+  {
+    question: "Which technology helps Policybazaar personalize underwriting?",
+    options: ["Blockchain", "Data Analytics", "Quantum Computing", "Robotics"],
+    correct: 1,
+    explanation: "Data analytics helps assess risk more accurately."
+  },
+  {
+    question: "What is Policybazaar's online insurance market share?",
+    options: ["73.4%", "83.4%", "93.4%", "97.4%"],
+    correct: 2,
+    explanation: "Policybazaar holds 93.4% of India's online insurance market."
+  },
+  {
+    question: "Which challenge still exists for online insurance in India?",
+    options: [
+      "Too many products",
+      "Low awareness and complex terms",
+      "No agents available",
+      "Excessive transparency"
+    ],
+    correct: 1,
+    explanation: "Awareness and complex language are still issues."
+  },
+  {
+    question: "What was India's total insurance penetration during COVID-19?",
+    options: ["2.6%", "3.3%", "4.19%", "5.0%"],
+    correct: 2,
+    explanation: "Insurance penetration rose to 4.19% during COVID."
+  },
+  {
+    question: "What was India's non-life insurance penetration in 2023–24?",
+    options: ["0.6%", "0.8%", "1.0%", "1.3%"],
+    correct: 2,
+    explanation: "Non-life penetration reached 1.0%."
+  },
+  {
+    question: "Which initiative empowers users on Policybazaar?",
+    options: [
+      "Hiding policy details",
+      "Side-by-side policy comparison",
+      "Mandatory agent calls",
+      "Offline-only updates"
+    ],
+    correct: 1,
+    explanation: "Side-by-side comparison empowers users to decide better."
+  },
+  {
+    question: "Which FinTech concept is used to automate claim processing?",
+    options: ["AI & Robotics", "5G Networks", "Blockchain", "Quantum Chips"],
+    correct: 0,
+    explanation: "AI & Robotics help automate claim checks."
+  },
+  {
+    question: "Which PB Fintech brand focuses on healthcare?",
+    options: ["DocPrime", "Paisabazaar", "PB Partners", "PB Health"],
+    correct: 0,
+    explanation: "DocPrime provides healthcare services."
+  },
+  {
+    question: "How does Policybazaar help prevent mis-selling?",
+    options: [
+      "By removing transparency",
+      "By forcing agent use",
+      "By unbiased online comparison",
+      "By hiding policy terms"
+    ],
+    correct: 2,
+    explanation: "Transparent online comparison reduces mis-selling."
+  },
+  {
+    question: "What is PB Partners’ main purpose?",
+    options: [
+      "Retail sales",
+      "Agent and partner support",
+      "Stock trading",
+      "Credit score analysis"
+    ],
+    correct: 1,
+    explanation: "PB Partners supports agents and partners."
+  },
+  {
+    question: "In which year did Policybazaar achieve a $1 billion valuation?",
+    options: ["2016", "2017", "2018", "2019"],
+    correct: 2,
+    explanation: "It became a unicorn in 2018."
+  },
+  {
+    question: "What type of comparison does Policybazaar specialize in?",
+    options: [
+      "Travel packages",
+      "Mutual funds",
+      "Insurance products",
+      "Stock trading insights"
+    ],
+    correct: 2,
+    explanation: "Policybazaar compares insurance products."
+  },
+  {
+    question: "What is the main focus of Policybazaar’s mission?",
+    options: [
+      "Maximize profit",
+      "Make insurance accessible and understandable",
+      "Sell crypto investments",
+      "Promote travel insurance"
+    ],
+    correct: 1,
+    explanation: "Its mission is to make insurance simple and accessible."
+  }
+
+
     ],    tips: [
             "💙 Every policy tells a story of protection and trust",
             "🎯 Insurance is not a cost, it's an investment in peace of mind",
